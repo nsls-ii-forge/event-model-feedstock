@@ -11,7 +11,7 @@ source:
 build:
   number: 7
   script: python setup.py install --single-version-externally-managed --record=record.txt
-  skip: True  # [py<3.6]
+  skip: True  # [py<36]
 
 requirements:
   host:
