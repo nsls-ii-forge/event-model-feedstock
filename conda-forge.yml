@@ -2,7 +2,7 @@ github:
   user_or_org: nsls-ii-forge
 channels:
   sources:
-    - [lightsource2-tag, defaults]
+    - [lightsource2-tag,defaults]
   targets:
     - [nsls2forge, main]
 travis:
