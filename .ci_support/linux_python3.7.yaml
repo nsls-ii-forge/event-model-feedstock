@@ -1,5 +1,5 @@
 channel_sources:
-- conda-forge,defaults
+- lightsource2-tag defaults
 channel_targets:
 - nsls2forge main
 docker_image:
