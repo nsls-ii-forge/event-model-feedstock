@@ -16,4 +16,8 @@ azure:
   user_or_org: nsls2forge
   project_name: nsls2forge
 min_py_ver: '36'
+provider:
+  linux: azure
+  osx: azure
+  win: azure
 upload_on_branch: master
