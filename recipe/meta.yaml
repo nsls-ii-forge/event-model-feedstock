@@ -9,14 +9,14 @@ source:
   git_rev: v{{ version }}
 
 build:
-  number: 7
-  script: python setup.py install --single-version-externally-managed --record=record.txt
+  number: 8
+  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
   skip: True  # [py<36]
 
 requirements:
   host:
     - python
-    - setuptools
+    - pip
   run:
     - jsonschema >=3.0.0
     - numpy
