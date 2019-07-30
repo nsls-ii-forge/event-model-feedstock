@@ -17,14 +17,20 @@ requirements:
   host:
     - python
     - pip
+    - pytest
+    - pytest-runner
   run:
     - jsonschema >=3.0.0
     - numpy
     - python
 
 test:
+  requires:
+    - pytest
   imports:
     - event_model
+  commands:
+    - pytest --pyargs event_model.tests
 
 about:
   home: https://github.com/NSLS-II/event_model
