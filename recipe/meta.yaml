@@ -9,10 +9,10 @@ source:
   git_rev: v{{ version }}
 
 build:
-  number: 10
+  noarch: python
+  number: 11
   script: "{{ PYTHON }} -m pip install . --no-deps -vv"
-  skip: True  # [py<36]
-
+  
 requirements:
   host:
     - python
@@ -33,10 +33,10 @@ test:
     - pytest --pyargs event_model.tests
 
 about:
-  home: https://github.com/NSLS-II/event_model
+  home: https://github.com/bluesky/event-model
   license: BSD 3-Clause
   license_file: LICENSE
-  summary: data model for event-based data collection and analysis
+  summary: Data model for event-based data collection and analysis
 
 extra:
   recipe-maintainers:

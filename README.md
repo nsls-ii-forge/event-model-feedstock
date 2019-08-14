@@ -1,13 +1,13 @@
 About event-model
 =================
 
-Home: https://github.com/NSLS-II/event_model
+Home: https://github.com/bluesky/event-model
 
 Package license: BSD 3-Clause
 
 Feedstock license: BSD 3-Clause
 
-Summary: data model for event-based data collection and analysis
+Summary: Data model for event-based data collection and analysis
 
 
 
@@ -15,68 +15,13 @@ Current build status
 ====================
 
 
-<table>
-    
-  <tr>
-    <td>Azure</td>
+<table><tr><td>All platforms:</td>
     <td>
-      <details>
-        <summary>
-          <a href="https://dev.azure.com/nsls2forge/nsls2forge/_build/latest?definitionId=&branchName=master">
-            <img src="https://dev.azure.com/nsls2forge/nsls2forge/_apis/build/status/event-model-feedstock?branchName=master">
-          </a>
-        </summary>
-        <table>
-          <thead><tr><th>Variant</th><th>Status</th></tr></thead>
-          <tbody><tr>
-              <td>linux_python3.6</td>
-              <td>
-                <a href="https://dev.azure.com/nsls2forge/nsls2forge/_build/latest?definitionId=&branchName=master">
-                  <img src="https://dev.azure.com/nsls2forge/nsls2forge/_apis/build/status/event-model-feedstock?branchName=master&jobName=linux&configuration=linux_python3.6" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_python3.7</td>
-              <td>
-                <a href="https://dev.azure.com/nsls2forge/nsls2forge/_build/latest?definitionId=&branchName=master">
-                  <img src="https://dev.azure.com/nsls2forge/nsls2forge/_apis/build/status/event-model-feedstock?branchName=master&jobName=linux&configuration=linux_python3.7" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_python3.6</td>
-              <td>
-                <a href="https://dev.azure.com/nsls2forge/nsls2forge/_build/latest?definitionId=&branchName=master">
-                  <img src="https://dev.azure.com/nsls2forge/nsls2forge/_apis/build/status/event-model-feedstock?branchName=master&jobName=osx&configuration=osx_python3.6" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_python3.7</td>
-              <td>
-                <a href="https://dev.azure.com/nsls2forge/nsls2forge/_build/latest?definitionId=&branchName=master">
-                  <img src="https://dev.azure.com/nsls2forge/nsls2forge/_apis/build/status/event-model-feedstock?branchName=master&jobName=osx&configuration=osx_python3.7" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>win_python3.6</td>
-              <td>
-                <a href="https://dev.azure.com/nsls2forge/nsls2forge/_build/latest?definitionId=&branchName=master">
-                  <img src="https://dev.azure.com/nsls2forge/nsls2forge/_apis/build/status/event-model-feedstock?branchName=master&jobName=win&configuration=win_python3.6" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>win_python3.7</td>
-              <td>
-                <a href="https://dev.azure.com/nsls2forge/nsls2forge/_build/latest?definitionId=&branchName=master">
-                  <img src="https://dev.azure.com/nsls2forge/nsls2forge/_apis/build/status/event-model-feedstock?branchName=master&jobName=win&configuration=win_python3.7" alt="variant">
-                </a>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </details>
+      <a href="https://dev.azure.com/nsls2forge/nsls2forge/_build/latest?definitionId=&branchName=master">
+        <img src="https://dev.azure.com/nsls2forge/nsls2forge/_apis/build/status/event-model-feedstock?branchName=master">
+      </a>
     </td>
   </tr>
-![ppc64le disabled](https://img.shields.io/badge/ppc64le-disabled-lightgrey.svg)
 </table>
 
 Current release info
