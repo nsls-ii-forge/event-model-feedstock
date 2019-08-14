@@ -7,7 +7,7 @@ Package license: BSD 3-Clause
 
 Feedstock license: BSD 3-Clause
 
-Summary: 
+Summary: data model for event-based data collection and analysis
 
 
 
