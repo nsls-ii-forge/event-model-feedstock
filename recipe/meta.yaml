@@ -1,12 +1,14 @@
-{% set version = "1.10.0" %}
+{% set name = "event-model" %}
+{% set version = "1.11.1" %}
+{% set sha256 = "71ff135326e43361e8a27a8f75666d0a103e1a54e29e83959c069af4bf5b937f" %}
 
 package:
-  name: event-model
+  name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  git_url: https://github.com/NSLS-II/event-model
-  git_rev: v{{ version }}
+  url: https://github.com/bluesky/{{ name }}/archive/v{{ version }}.tar.gz
+  sha256: {{ sha256 }}
 
 build:
   noarch: python
@@ -15,14 +17,12 @@ build:
   
 requirements:
   host:
-    - python
+    - python >=3.6
     - pip
-    - pytest
-    - pytest-runner
   run:
-    - jsonschema >=3.0.0
+    - python >=3.6
+    - jsonschema 
     - numpy
-    - python
 
 test:
   requires:
@@ -40,7 +40,6 @@ about:
 
 extra:
   recipe-maintainers:
-    - CJ-Wright
     - danielballan
     - ericdill
     - licode
