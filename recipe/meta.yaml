@@ -1,6 +1,6 @@
 {% set name = "event-model" %}
-{% set version = "1.11.1" %}
-{% set sha256 = "b4ac46e35842283c982e126f5398d92966bbb17d511ed21d507533a5ad36c387" %}
+{% set version = "1.11.2" %}
+{% set sha256 = "4f09bf0f20ca0ffe390f781a9a72dee38166f97155ca48a148cc739f2bcd29e8" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: "{{ PYTHON }} -m pip install . --no-deps -vv"
   
 requirements:
