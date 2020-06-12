@@ -2,7 +2,6 @@
 {% set version = "1.15.2" %}
 {% set sha256 = "31b6103801abcc3ebe099757bca7c9da9b4d535330acf0ba10d81c0753eb0e51" %}
 
-  databroker now wddorks around.
 package:
   name: {{ name|lower }}
   version: {{ version }}
