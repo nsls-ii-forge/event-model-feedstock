@@ -3,7 +3,7 @@ About event-model
 
 Home: https://github.com/bluesky/event-model
 
-Package license: BSD 3-Clause
+Package license: BSD-3-Clause
 
 Feedstock license: BSD 3-Clause
 
